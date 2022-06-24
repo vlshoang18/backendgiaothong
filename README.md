@@ -1,4 +1,4 @@
-# 1.Tiêu đề cấp 1
+# Admin
 Traffic sign:
 
 Add traffic sign: POST --> https://driving-license-thainam.herokuapp.com/trafficSign/add
