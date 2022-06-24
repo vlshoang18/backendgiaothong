@@ -14,3 +14,35 @@ Create trick: POST --> https://driving-license-thainam.herokuapp.com/trick/add
 History test
 
 Create history test: POST --> https://driving-license-thainam.herokuapp.com/history/add
+# Customer
+Get all traffic sign: GET --> https://driving-license-thainam.herokuapp.com/trafficSign/getAll
+Get detail traffic sign: GET --> https://driving-license-thainam.herokuapp.com/trafficSign/getDetail/{id}
+Get all traffic sign follow id category: GET --> https://driving-license-thainam.herokuapp.com/trafficSign/getTrafficSignFollowIdCategory/{id}
+Category of traffic sign:
+
+Gett all category: GET --> https://driving-license-thainam.herokuapp.com/categorySign/getAll
+Learn:
+
+Gett all learn: GET --> https://driving-license-thainam.herokuapp.com/learn/getAll
+Get detail learn: GET --> https://driving-license-thainam.herokuapp.com/learn/getDetail/{id}
+Get all learn follow id category: GET --> https://driving-license-thainam.herokuapp.com/learn/getLearnFollowIdCategory/{id}
+Category of learn:
+
+Get all category: GET --> https://driving-license-thainam.herokuapp.com/categoryLearn/getAll
+Trick:
+
+Get all trick: GET --> https://driving-license-thainam.herokuapp.com/trick/getAll
+Get detail trick: GET --> https://driving-license-thainam.herokuapp.com/trick/getDetail/{id}
+Auth:
+
+Register: POST --> https://driving-license-thainam.herokuapp.com/user/register
+Login: POST --> https://driving-license-thainam.herokuapp.com/user/login
+Get profile: GET --> https://driving-license-thainam.herokuapp.com/user/getProfile/{id}
+Update profile: PATCH --> https://driving-license-thainam.herokuapp.com/user/updateUser/{id}
+Change password: PATCH --> https://driving-license-thainam.herokuapp.com/user/changePassword/{id}
+History test
+# security Hash Full Name
+Register: POST --> https://driving-license-thainam.herokuapp.com/userTest/register
+Login: POST --> https://driving-license-thainam.herokuapp.com/userTest/login
+Get all user: GET --> https://driving-license-thainam.herokuapp.com/userTest/getAll
+Get profile user follow id: GET --> https://driving-license-thainam.herokuapp.com/userTest/getProfile/{id}
